@@ -16,20 +16,21 @@ const Card = (props) => {
       </View>
     );
 };
+
 const styles = StyleSheet.create({
     card: {
-      width: '95%',
-      height: '70%',
+      width: '100%',
+      height: '100%',
       borderRadius: 10,
       shadowColor: "#000",
       shadowOffset: {
-          width: 0,
-          height: 8,
+        width: 0,
+        height: 4,
       },
-      shadowOpacity: 0.5,
-      shadowRadius: 11.14,
-  
-      elevation: 21,
+      shadowOpacity: 0.30,
+      shadowRadius: 4.65,
+      
+      elevation: 0,
     },
     cardInner: {
       padding: 10
