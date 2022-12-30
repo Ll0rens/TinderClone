@@ -1,4 +1,3 @@
-import 'react-native-gesture-handler'
 import React, {useEffect, useState}from "react";
 import {View, StyleSheet, Text, useWindowDimensions, Image} from "react-native";
 import Animated, { useSharedValue, runOnJS,useAnimatedStyle, withSpring, useAnimatedGestureHandler, useDerivedValue, interpolate} from 'react-native-reanimated';
