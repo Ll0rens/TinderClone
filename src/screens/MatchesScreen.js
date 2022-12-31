@@ -14,7 +14,7 @@ const MatchesScreen = () => {
       </View>
       <View style={styles.users}>
         {users.map(user => (
-          <View style={styles.user1} key={user.id}>
+          <View style={styles.userNames} key={user.id}>
             <View>
             <Text style={{frontWeight: 'bold', fontSize: 15, color: '#F63A6E', textAlign: 'center'}}>{user.name}</Text>
             </View>
@@ -55,7 +55,7 @@ const styles = StyleSheet.create({
     height: '100%',
     borderRadius: 50,
   },
-  user1: {
+  userNames: {
     width: 120,
     height: 140,
   },
